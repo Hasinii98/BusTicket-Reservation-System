@@ -1,0 +1,55 @@
+ body{background:url("blue.jpg");}
+ 
+.btn{
+	padding: 10px;
+	background-color:white ;
+	  border-color: transparent;
+	  color: #fff;
+	  font-size: 20px;
+	  letter-spacing: 0.5px;
+	  height: 40px;
+	  margin-top: 20px;
+	  margin-left:30px;
+	  margin-right:30px;
+	  transition: 0.4s ease;
+	  color: white;
+	  border-color: #00747c;
+}
+
+
+.text{
+color:white;
+font:20px;
+margin-left:50px;
+}
+  .btn:hover{
+	  background-color: #00747c;
+	  cursor: pointer;  
+	  
+  }
+  
+ 
+  .box{
+  left: 50%;
+  margin-left: 25%;
+  
+  }
+  
+  h1{
+  color: white;
+  margin-left:40px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

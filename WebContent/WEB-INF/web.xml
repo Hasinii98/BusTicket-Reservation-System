@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+	<servlet>
+		<servlet-name>ticketDetailServlet</servlet-name>
+		<servlet-class>com.oop.servlet.ticketDetailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ticketDetailServlet</servlet-name>
+		<url-pattern>/ticket</url-pattern>
+	</servlet-mapping>     
+	
+	<servlet>
+    	<servlet-name>contactUsServlet</servlet-name>
+    	<servlet-class>com.oop.servlet.contactUsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>contactUsServlet</servlet-name>
+    	<url-pattern>/insert</url-pattern>
+    </servlet-mapping> 
+       
+    <servlet>
+		<servlet-name>updateTicketServlet</servlet-name>
+		<servlet-class>com.oop.servlet.updateTicketServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateTicketServlet</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>cancelTicketServlet</servlet-name>
+		<servlet-class>com.oop.servlet.cancelTicketServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cancelTicketServlet</servlet-name>
+		<url-pattern>/cancel</url-pattern>
+	</servlet-mapping>
+				 	 
+    </web-app>
+ 
